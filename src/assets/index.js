@@ -14,7 +14,7 @@ import resume from "./Rohan-Mathur-cv.pdf";
 import css from "./tech/css.png";
 import autocads from "./tech/autocads.png";
 import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
+
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import java from "./tech/java.png";
@@ -26,7 +26,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
+import express from "./tech/express.png";
 import meta from "./company/meta.png";
 import codingclub from "./company/codingclub.jpeg";
 import indianoil from "./company/indianoil.png";
@@ -55,7 +55,7 @@ export {
     css,
     autocads,
     docker,
-    figma,
+    express,
     git,
     html,
     javascript,

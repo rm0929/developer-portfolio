@@ -15,7 +15,7 @@ import {
     nodejs,
     mongodb,
     git,
-    figma,
+    express,
     docker,
     meta,
     indianoil,
@@ -46,7 +46,7 @@ export const navLinks = [{
 ];
 
 const services = [{
-        title: "Web Developer",
+        title: "Frontend Developer",
         icon: web,
     },
     {
@@ -69,6 +69,10 @@ const rm = {
 }
 
 const technologies = [{
+        name: "Java",
+        icon: java,
+    },
+    {
         name: "HTML 5",
         icon: html,
     },
@@ -81,19 +85,11 @@ const technologies = [{
         icon: javascript,
     },
     {
-        name: "Java", //change and put java
-        icon: java,
-    },
-    {
         name: "React JS",
         icon: reactjs,
     },
     {
-        name: "Redux Toolkit", //change and put autocad
-        icon: autocads,
-    },
-    {
-        name: "Tailwind CSS", //
+        name: "Tailwind CSS",
         icon: tailwind,
     },
     {
@@ -113,8 +109,12 @@ const technologies = [{
         icon: git,
     },
     {
-        name: "figma", //change
-        icon: figma,
+        name: "express",
+        icon: express,
+    },
+    {
+        name: "Autocad",
+        icon: autocads,
     },
     {
         name: "docker",
@@ -129,10 +129,10 @@ const experiences = [{
         iconBg: "#383E56",
         date: "May 2022 - Aug 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Developed a frontend GUI that tells us whether an indistrial machine would fail under the gien parameters or not.",
+            "Collaborated with cross-functional teams including developers, mechanical and chemical engineers, data analysts and the IT team to deliver the project in three months.",
+            "Implemented \"Machine Learning\" models to train data make predictions.",
+            "Achieved the model accuracy about 95%.",
         ],
     },
     {
@@ -142,10 +142,10 @@ const experiences = [{
         iconBg: "#E6DEDD",
         date: "Aug 2021 - Feb 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Organized the Google Cloud \"30 Days of Code\" challenge for university students",
+            "Conducted technical workshops on Google Cloud, Kubernetes, and other cloud related concepts",
+            "Implemented a full stack website for our university's Google cloud college community.",
+            "Participated in code reviews and providing constructive feedback to other student developers.",
         ],
     },
     {
@@ -155,10 +155,10 @@ const experiences = [{
         iconBg: "#383E56",
         date: "Oct 2021 - May 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Founded Coding Club along with three other students. I was the head of the technical department",
+            "Organised hackathons, and coding workshops for students.",
+            "Took online coding sessions on Java programming, web development and shared tips and tricks with students.",
+            "Managed the technical team that worked under me. Organising committee reported to me directly regarding event planning, etc.",
         ],
     },
 ];
