@@ -1,6 +1,7 @@
 import logo from "./logo1.png";
 import favicon from "./favicon.png";
 import backend from "./backend.png";
+import fullstack from "./fullstack.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
@@ -9,13 +10,13 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import rohan from "./rohan.jpg";
-import resume from "./Rohan-Mathur-cv.pdf";
+import resume from "./Rohan_Mathur_cv.pdf";
 
 import css from "./tech/css.png";
-import autocads from "./tech/autocads.png";
 import docker from "./tech/docker.png";
 
 import git from "./tech/git.png";
+import aws from "./tech/aws.png";
 import html from "./tech/html.png";
 import java from "./tech/java.png";
 import javascript from "./tech/javascript.png";
@@ -30,10 +31,11 @@ import express from "./tech/express.png";
 import meta from "./company/meta.png";
 import codingclub from "./company/codingclub.jpeg";
 import indianoil from "./company/indianoil.png";
+import naturesmith from "./company/naturesmith.webp";
 import gdsc from "./company/gdsc.png";
 
 import guiproj from "./guiproj.png";
-import jobit from "./jobit.png";
+import mobileapp from "./mobileapp.png";
 import glaucomaproj from "./glaucomaproj.png";
 import sarsproj from "./sarsproj.png";
 import deliveryproj from "./deliveryproj.png";
@@ -45,6 +47,7 @@ export {
     logo,
     favicon,
     backend,
+    fullstack,
     java,
     creator,
     mobile,
@@ -53,7 +56,7 @@ export {
     menu,
     close,
     css,
-    autocads,
+    aws,
     docker,
     express,
     git,
@@ -69,9 +72,10 @@ export {
     meta,
     codingclub,
     indianoil,
+    naturesmith,
     gdsc,
     guiproj,
-    jobit,
+    mobileapp,
     glaucomaproj,
     sarsproj,
     deliveryproj,

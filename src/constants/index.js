@@ -3,10 +3,11 @@ import {
     rohan,
     mobile,
     backend,
-    creator,
+    fullstack,
     web,
     javascript,
-    typescript,
+    aws,
+    // typescript,
     html,
     css,
     reactjs,
@@ -17,18 +18,17 @@ import {
     git,
     express,
     docker,
-    meta,
     indianoil,
     gdsc,
     codingclub,
     guiproj,
-    jobit,
+    mobileapp,
     glaucomaproj,
     threejs,
-    autocads,
     sarsproj,
     deliveryproj,
     iplproj,
+    naturesmith,
 } from "../assets";
 
 export const navLinks = [{
@@ -50,16 +50,16 @@ const services = [{
         icon: web,
     },
     {
-        title: "React Native Developer",
-        icon: mobile,
-    },
-    {
         title: "Backend Developer",
         icon: backend,
     },
     {
-        title: "Machine Learning",
-        icon: creator,
+        title: "Full Stack Developer",
+        icon: fullstack,
+    },
+    {
+        title: "Mobile Developer",
+        icon: mobile,
     },
 ];
 
@@ -69,8 +69,12 @@ const rm = {
 }
 
 const technologies = [{
-        name: "Java",
-        icon: java,
+        name: "React JS",
+        icon: reactjs,
+    },
+    {
+        name: "Node JS",
+        icon: nodejs,
     },
     {
         name: "HTML 5",
@@ -85,16 +89,12 @@ const technologies = [{
         icon: javascript,
     },
     {
-        name: "React JS",
-        icon: reactjs,
+        name: "Java",
+        icon: java,
     },
     {
         name: "Tailwind CSS",
         icon: tailwind,
-    },
-    {
-        name: "Node JS",
-        icon: nodejs,
     },
     {
         name: "MongoDB",
@@ -113,8 +113,8 @@ const technologies = [{
         icon: express,
     },
     {
-        name: "Autocad",
-        icon: autocads,
+        name: "AWS Cloud",
+        icon: aws,
     },
     {
         name: "docker",
@@ -123,16 +123,29 @@ const technologies = [{
 ];
 
 const experiences = [{
-        title: "Software Engineer and ML Intern",
+        title: "Software Engineering Intern",
         company_name: "Indian Oil",
         icon: indianoil,
         iconBg: "#383E56",
-        date: "May 2022 - Aug 2022",
+        date: "May 2022 - Sep 2022",
         points: [
-            "Developed a frontend GUI that tells us whether an indistrial machine would fail under the gien parameters or not.",
-            "Collaborated with cross-functional teams including developers, mechanical and chemical engineers, data analysts and the IT team to deliver the project in three months.",
-            "Implemented \"Machine Learning\" models to train data make predictions.",
-            "Achieved the model accuracy about 95%.",
+            "Developed full-stack software with Node.js/Express and MongoDB to manage and process live telemetry from refinery machines, ensuring scalability and system reliability under heavy loads.",
+            "Integrated AI/ML models (TensorFlow, scikit-learn) into backend services to predict machine failures from historical sensor data, achieving 94.7% accuracy and enabling proactive maintenance",
+            "Built a real-time React dashboard connected to the backend APIs to visualize machine health, failure risks, and performance trends for refinery operators.",
+            "Optimized data pipelines with indexing, caching, and monitoring, reducing downtime by 17% and improving query response times for live analytics.",
+        ],
+    },
+    {
+        title: "Full Stack Developer Intern",
+        company_name: "Naturesmith Foods",
+        icon: naturesmith,
+        iconBg: "#383E56",
+        date: "Apr 2021 - Sep 2021",
+        points: [
+            "Architected and developed scalable inventory management APIs using Node.js and Express for high-traffic e-commerce platform, improving data fetch performance by 25%.",
+            "Built responsive React frontend components integrated with backend APIs to manage real-time inventory tracking.",
+            "Implemented database query optimization and caching mechanisms to reduce DB load and improve response times.",
+            "Deployed production-ready applications to AWS EC2 with comprehensive logging and performance tracking.",
         ],
     },
     {
@@ -163,28 +176,28 @@ const experiences = [{
     },
 ];
 
-const testimonials = [{
-        testimonial: "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-        name: "Sara Lee",
-        designation: "CFO",
-        company: "Acme Co",
-        image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-        testimonial: "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: "Chris Brown",
-        designation: "COO",
-        company: "DEF Corp",
-        image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-        testimonial: "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: "Lisa Wang",
-        designation: "CTO",
-        company: "456 Enterprises",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-];
+// const testimonials = [{
+//         testimonial: "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+//         name: "Sara Lee",
+//         designation: "CFO",
+//         company: "Acme Co",
+//         image: "https://randomuser.me/api/portraits/women/4.jpg",
+//     },
+//     {
+//         testimonial: "I've never met a web developer who truly cares about their clients' success like Rick does.",
+//         name: "Chris Brown",
+//         designation: "COO",
+//         company: "DEF Corp",
+//         image: "https://randomuser.me/api/portraits/men/5.jpg",
+//     },
+//     {
+//         testimonial: "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+//         name: "Lisa Wang",
+//         designation: "CTO",
+//         company: "456 Enterprises",
+//         image: "https://randomuser.me/api/portraits/women/6.jpg",
+//     },
+// ];
 
 const projects = [{
         name: "GUI Testing Ecommerce Website",
@@ -206,23 +219,23 @@ const projects = [{
         source_code_link: "https://github.com/rm0929/React-GUI-Testing",
     },
     {
-        name: "Scrum Simulator",
-        description: "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        name: "Privacy Mobile Application- SENSAI",
+        description: "Flutter, native iOS application that provies transparency to the users about all sensor devices predent in close vicinity. Helps users to protect their privacy from unwanted tracking.",
         tags: [{
-                name: "javaFx",
+                name: "flutter",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "ultra-wideband",
                 color: "green-text-gradient",
             },
             {
-                name: "springboot",
+                name: "node.js",
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/ssrin172/Group_Srinivasan",
+        image: mobileapp,
+        source_code_link: "https://github.com/rm0929/SENSAI-Privacy-iOS-Application",
     },
     {
         name: "Glaucoma Detection Using Deep Learning",
@@ -282,7 +295,7 @@ const projects = [{
         source_code_link: "https://github.com/rm0929/Delivery-Management-System",
     },
     {
-        name: "IPL Cricket Match Prediction using R ",
+        name: "Cricket Match Result Prediction using R ",
         description: "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
         tags: [{
                 name: "R",
@@ -302,4 +315,4 @@ const projects = [{
     },
 ];
 
-export { services, technologies, experiences, testimonials, projects, rm };
+export { services, technologies, experiences, projects, rm };
