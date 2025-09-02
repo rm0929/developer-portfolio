@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import { Tilt } from 'react-tilt'
 import { motion } from 'framer-motion'
 import { styles } from '../styles'
@@ -84,7 +84,7 @@ const About = () => {
               <div className="flex-1 glowing-border p-4 rounded-lg">
                 <h4 className="text-white text-[18px] font-semibold mb-2">Education</h4>
                 <p className="text-secondary text-[13px]">
-                  B.Sc. Computer Engineering <br /> M.Sc. Software Engineering 
+                  BS Computer Engineering <br /> MS Software Engineering 
                 </p>
               </div>
             </div>
